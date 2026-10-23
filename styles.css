@@ -38,3 +38,6 @@
 .mini-ticket-progress i{display:block;width:42%;height:100%;background:#c8473f;border-radius:9px}
 .mini-ticket-timeline{display:flex;gap:3px;justify-content:space-between;margin-top:5px;font-size:5px;color:#6f947f;white-space:nowrap}
 .mini-guide-more{text-align:center;padding:7px;border-radius:7px;background:#e8f1fb;color:#1967a9;font-size:7px;font-weight:700;margin-top:8px}
+
+@media(max-width:640px){.main-nav{display:flex;gap:0;margin-left:auto;margin-right:10px}.main-nav a:not(.feedback-link){display:none}.main-nav .feedback-link{font-size:9px;white-space:nowrap}.header-cta{font-size:9px;padding:8px 9px}}
+@media(max-width:380px){.site-header{padding-inline:12px}.brand{font-size:15px;gap:7px}.main-nav{margin-right:7px}.main-nav .feedback-link{font-size:8px}.header-cta{font-size:8px;padding:7px}}
